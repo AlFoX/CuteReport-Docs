@@ -81,3 +81,8 @@ Key to Preview features:
 * export to file
 * print
 
+[ReportEditorImage]:images/Designer_reportEditor_withLabels.png
+[PageEditorImage]:images/Designer_pageEditor_withLabels.png
+[ScriptEditorImage]:images/Designer_scriptEditor.png
+[DatasetEditorImage]:images/Designer_datasetEditor._withLabels.png
+[PreviewImage]:images/Designer_preview_withLabels.png
