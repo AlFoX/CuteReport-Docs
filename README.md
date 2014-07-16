@@ -11,7 +11,7 @@ ReportEditor is the first module in designer's tab bar. It is responsible for ma
 
 ![Report Editor image][ReportEditorImage]
 
-Key to ReportEditor features:
+**Key to ReportEditor features:**
 * main menu
 * modules bar
 * ReportEditor tab
@@ -25,7 +25,7 @@ PageEditor module is responsible for making the report page template. It provide
 
 ![Page Editor image][PageEditorImage]
 
-Key to PageEditor features:
+**Key to PageEditor features:**
 
 * modules bar with PageEditor activated
 * pages bar
@@ -55,7 +55,7 @@ You can switch to ScriptEditor by pressing the "Dataset" button on the module ba
 
 ![Dataset Editor image][DatasetEditorImage]
 
-Key to DatasetEditor features:
+**Key to DatasetEditor features:**
 
 * modules bar with DatasetEditor activated
 * datasets bar
@@ -71,7 +71,7 @@ Preview module task is to display rendered reports. There are some button groups
 
 ![Preview image][PreviewImage]
 
-Key to Preview features:
+**Key to Preview features:**
 
 * modules bar with Preview activated
 * Render report button
