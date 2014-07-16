@@ -81,8 +81,8 @@ Preview module task is to display rendered reports. There are some button groups
 * export to file
 * print
 
-[ReportEditorImage]:images/Designer_reportEditor_withLabels.png
-[PageEditorImage]:images/Designer_pageEditor_withLabels.png
-[ScriptEditorImage]:images/Designer_scriptEditor.png
-[DatasetEditorImage]:images/Designer_datasetEditor._withLabels.png
-[PreviewImage]:images/Designer_preview_withLabels.png
+[ReportEditorImage]:../images/Designer_reportEditor_withLabels.png
+[PageEditorImage]:../images/Designer_pageEditor_withLabels.png
+[ScriptEditorImage]:../images/Designer_scriptEditor.png
+[DatasetEditorImage]:../images/Designer_datasetEditor._withLabels.png
+[PreviewImage]:../images/Designer_preview_withLabels.png
