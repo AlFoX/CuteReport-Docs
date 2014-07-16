@@ -5,4 +5,5 @@ CuteRepport User's manual
 * Creating Reports
   * [Report objects](report_objects.md)
   * ["Hello World" example](hello_world.md)
+  * [Memo object](memo_object.md)
   * [HTML-tags in the "Memo" object](memo.md)
