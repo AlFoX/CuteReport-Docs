@@ -11,8 +11,8 @@ Here you can see some samples:
 
 Let's look close at the Memo item features. We will make a simple example of Memo with two lines of text:
 
-*First text line with some very useful info*
+*First text line with some very useful info.*
 
-*Second line with some other useful info*
+*Second line with some other useful info.*
 
 [memoSamples]:../images/memo_samples.png
