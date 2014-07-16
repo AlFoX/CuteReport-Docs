@@ -8,7 +8,7 @@ Depending of your local settings Memo Helper dialog will appear immediately or y
 
 ![MemoItemHelper1]
 
-Now Report template is completed. To generate actual report select in main menu Service->Run or press F5 on your keyboard. Designer will be switched to "Preview" tab and renderer report page with "Hello World!" will appear. Rendered repport can be printed or exported to the one of the supported export formats.
+Now Report template is completed. To generate actual report select in main menu Service->Run or press F5 on your keyboard. Designer will be switched to the "Preview" tab and renderer report page with "Hello World!" will appear. Rendered repport can be printed or exported to the one of the supported export formats.
 
 [BandsGroupIcon]:../images/group_Bands_32x32.png
 [ItemGroupIcon]:../images/group_Shapes_32x32.png
