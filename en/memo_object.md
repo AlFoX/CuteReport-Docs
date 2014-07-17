@@ -15,4 +15,16 @@ Let's look close at the Memo item features. We will make a simple example of Mem
 
 *Second line with some other useful info.*
 
+Enable Memo frame from Property Editor and resize item up to 90x30 mm using mouse or Property Editor. As you can see now Memo can display not only a single line but several lines os text as well. Try to reduce Memo width to 50 mm. Obviously, lines can not fit to the object's border and will be wrapped. This is controlled by TextFlags::TextWordWrap object property. If it is disabled any long line will be cut short. Lets play with other TextFlags and see what we can have
+
+![memoSamples1]
+
+Lets take a look at the other feature: rotation. Any object including Memo can be rotated to any angle in degree range 0..360. Set required angle in the PropertyEditor by changing property "rotation". Memo borders will be aligned accordingly, so you don't need to care about the borders.
+
+![memoSamples3]
+
+Other Memo properties: [TODO]
+
 [memoSamples]:../images/memo_samples.png
+[memoSamples1]:../images/memo_samples1.png
+[memoSamples3]:../images/memo_samples3.png
