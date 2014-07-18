@@ -41,6 +41,8 @@ this is a usual text, \<font color="#FF8030"\>and this is an orange one\</font\>
 
 ![memoSamples4]
 
+**Expressions**
+
 Other Memo properties: [TODO]
 - stretchMode: object stretchability to fit text
 - showStretchability: do stretching not only on rendered page, but on Designer' PageEditor too
