@@ -19,7 +19,7 @@ We will make a simple example of Memo with two lines of text:
 
 *Second line with some other useful info.*
 
-Enable Memo frame from Property Editor and resize item up to 90x30 mm using mouse or Property Editor. As you can see now Memo can display not only a single line but several lines os text as well. Try to reduce Memo width to 50 mm. Obviously, lines can not fit to the object's border and will be wrapped. This is controlled by TextFlags::TextWordWrap object property. If it is disabled any long line will be cut short. Lets play with other TextFlags and see what we can have
+Enable Memo frame from Property Editor and resize item up to 90x30 mm using mouse or Property Editor. As you can see now Memo can display not only a single line but several lines os text as well. Try to reduce Memo width to 50 mm. Obviously, lines can not fit to the object's border and will be wrapped. This is controlled by TextFlags::TextWordWrap object property. If it is disabled any long line will be cut short. Lets play with other TextFlags and see what we can have.
 
 ![memoSamples1]
 
@@ -32,6 +32,19 @@ Lets take a look at the other feature: rotation. Any object including Memo can b
 
 **HTML tags**
 
+Memo object allow most of HLML tags. Tags can be placed within Memo text. Tags are disabled by default. For HTML tags detection set property "allowHTML" to "true". There are some examples below.
+
+\<i\>Memo\</i\> \<b\>example\</b\>
+
+E = mc<sup>2</sup>
+
+A\<sub\>1\</sub\> = B\<sup\>2\</sup\>
+
+this is a usual text, \<font color=red\>and this is a red one\</font\>
+
+this is a usual text, \<font color="#FF8030"\>and this is an orange one\</font\>
+
+![memoSamples4]
 
 Other Memo properties: [TODO]
 - stretchMode: object stretchability to fit text
@@ -44,3 +57,4 @@ Other Memo properties: [TODO]
 [memoSamples]:../images/memo_samples.png
 [memoSamples1]:../images/memo_samples1.png
 [memoSamples3]:../images/memo_samples3.png
+[memoSamples4]:../images/memo_samples4.png
