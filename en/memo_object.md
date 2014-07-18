@@ -24,6 +24,12 @@ Lets take a look at the other feature: rotation. Any object including Memo can b
 ![memoSamples3]
 
 Other Memo properties: [TODO]
+- stretchMode: object stretchability to fit text
+- showStretchability: do stretching not only on rendered page, but on Designer' PageEditor too
+- allowHTML: enterpret all HTML tags
+- allowExpressions: detect scripting expressions and calculate them
+- expressionDelimiter: two string separated by comma which means begin and end of scripting block.
+- stretchFont: set automatic font size to fit Memo text within Memo width
 
 [memoSamples]:../images/memo_samples.png
 [memoSamples1]:../images/memo_samples1.png
