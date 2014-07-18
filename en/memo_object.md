@@ -43,6 +43,16 @@ this is a usual text, \<font color="#FF8030"\>and this is an orange one\</font\>
 
 **Expressions**
 
+Expressions is one of the most important feature of Memo object. It allows to display not only a static text, expressions results as well. Expressions can be mixed with static text. Enter text above to the Memo object:
+
+Now is [QDateTime.currentDateTime()]
+
+and render report by pressing "F5" on your keyboard. You'll see result of the rendering, something like that:
+
+Now is Fri Jul 18 2014 00:44:22 GMT-0700 (PDT)
+
+Why is that so? CuteReport's renderer detects every expression instance, calculate it and replace expression with the result. 
+
 Other Memo properties: [TODO]
 - stretchMode: object stretchability to fit text
 - showStretchability: do stretching not only on rendered page, but on Designer' PageEditor too
