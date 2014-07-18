@@ -34,7 +34,7 @@ Lets take a look at the other feature: rotation. Any object including Memo can b
 Memo object allow most of HLML tags. Tags can be placed within Memo text. Tags are disabled by default. For HTML tags detection set property "allowHTML" to "true". There are some examples below.
 
 \<i\>Memo\</i\> \<b\>example\</b\><br>
-E = mc<sup>2</sup><br>
+E = mc\<sup\>2\</sup\><br>
 A\<sub\>1\</sub\> = B\<sup\>2\</sup\><br>
 this is a usual text, \<font color=red\>and this is a red one\</font\><br>
 this is a usual text, \<font color="#FF8030"\>and this is an orange one\</font\>
