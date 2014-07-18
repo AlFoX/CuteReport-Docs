@@ -9,7 +9,11 @@ Here you can see some samples:
 ![memoSamples]
 
 
-Let's look close at the Memo item features. We will make a simple example of Memo with two lines of text:
+Let's look close at the Memo item features. 
+
+**Text Aligning**
+
+We will make a simple example of Memo with two lines of text:
 
 *First text line with some very useful info.*
 
@@ -19,9 +23,15 @@ Enable Memo frame from Property Editor and resize item up to 90x30 mm using mous
 
 ![memoSamples1]
 
+**Rotating**
+
 Lets take a look at the other feature: rotation. Any object including Memo can be rotated to any angle in degree range 0..360. Set required angle in the PropertyEditor by changing property "rotation". Memo borders will be aligned accordingly, so you don't need to care about the borders.
 
 ![memoSamples3]
+
+
+**HTML tags**
+
 
 Other Memo properties: [TODO]
 - stretchMode: object stretchability to fit text
