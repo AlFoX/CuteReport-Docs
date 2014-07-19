@@ -1,7 +1,7 @@
 Bands
 -----
 
-Bands are designed for positioning items on a page. Each band has its own position and functionality. CuteReport has some special bands designer to represent data from a dataset. Dataset contains structured data organized into rows(lines) which have one or more columns(fields). To print data from datasets CuteReport uses these special bands named "Detail...". To make it work, add one or more such bands to the page, connect them to the dataset and place Memo items on them. Once band is connected to the dataset, Memo will have button on the right side with dropdown list of dataset's fields names (commercial version only).
+Bands are designed for positioning items on a page. Each band has its own position and functionality. CuteReport has some special bands designer to represent data from a dataset. Dataset contains structured data organized into rows(lines) which have one or more columns(fields). To print data from datasets CuteReport uses these special bands named "Detail...". To make it work, add one or more such bands to the page, connect them to the dataset and place Memo items on them. Once band is connected to the dataset, Memo will have button on the right side with the dropdown list of dataset's fields names (commercial version only).
 While rendering process these bands will be printed on the rendered page. "Detail" band will be printed once per dataset row, DetailHeader and DetailFooter will be printed accordingly to theirs "condition" property. If there is no free space to print new band, new rendered page will be created before continue. New page will contain all page headers and footers before continue to print Detail bands.
 
 
