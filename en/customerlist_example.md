@@ -20,7 +20,11 @@ Go to the tab "Page" and create new page if not exists. There are some types of 
 
 ![MemoDropDown]
 
+Do the same for all other items and set correct dataset field to draw. Press "F5" and you should see something like this:
 
+![CustomerList1]
+
+If you don't have such result, you can load report CustomerList.qtrp from CuteReport package and figure out what you did wrong.
 
 
 
@@ -28,5 +32,5 @@ Go to the tab "Page" and create new page if not exists. There are some types of 
 [sqldataset_helper]:../images/sqldataset_helper.png
 [sqldataset_data]:../images/sqldataset_data.png
 [MemoDropDown]:../images/memo_dropdown.png
-
+[CustomerList1]:../images/customerlist_1.png
 
