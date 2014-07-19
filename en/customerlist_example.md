@@ -27,6 +27,6 @@ Go to the tab "Page" and create new page if not exists. There are some types of 
 [AddNewPageButton]:../images/add_new_page_button.png
 [sqldataset_helper]:../images/sqldataset_helper.png
 [sqldataset_data]:../images/sqldataset_data.png
-[MemoDropDown]:../imaages/memo_dropdown.png
+[MemoDropDown]:../images/memo_dropdown.png
 
 
