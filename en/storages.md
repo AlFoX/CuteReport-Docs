@@ -7,10 +7,24 @@ Right now we will try to figure out what is storages and how to work with them. 
 
 If you press on combobox on the top of the screen, you can see a list af all storages available. You need to select your primary storage and check "default". "Default" means storage for all url where schema is not indicated. 
 For example, if you set default storage name as "Filesystem" then any objects with short url like "/objects/image.png" will be transformed to full url "file:/object/image.png". If you set "GIT" as default storage, then object "images/logo.png" will be transformed to "git:images/logo.png". Absolute or relative path is acceptable.
-You can change these settings anytime in the main menu "Tools->Options->Storage"
+You can change these settings anytime in the main menu "Tools->Options->Storage". Storage can be global or report's local. global storages are used by CuteReport core. If report object has it's own assigned local storage than it will be used before global one.
 
+**FileSystem storage**
 
+FileSystem is the most commonly used storage. It has only few options: "root folder" and "ask for rewrite". Root folder is the upper directory accessible to user. "Ask for rewrite" option is used to detect is it needed to show dialog for overwrite file if it's already exists while saving.
 
+**GIT storage**
+
+It can be used for keeping all reports and theirs objects in local or remote GIT. Options:
+* remote url: git repository url
+* login, password: credentials to access git repository
+* local path: local directory where git repo will be cloned in
+* git binary: git console binary. CuteReport uses external git binary to oparate git repository, so it has to be defined
+* "sync now" button: button for cloning or pulling data from remote repository
+
+**Resource storage**
+
+All objects stored in this storage will be included to report's file while saving. 
 
 
 
