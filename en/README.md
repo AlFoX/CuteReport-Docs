@@ -7,3 +7,4 @@ CuteRepport User's manual
   * ["Hello World" example](hello_world.md)
   * [Memo object](memo_object.md)
   * [Bands ](bands.md)
+  * ["Customer list" example](customerlist_example.md)
