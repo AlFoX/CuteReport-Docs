@@ -51,7 +51,21 @@ and render report by pressing "F5" on your keyboard. You'll see result of the re
 
 Now is Fri Jul 18 2014 00:44:22 GMT-0700 (PDT)
 
-Why is that so? CuteReport's renderer detects every expression instance, calculate it and replace expression with the result. 
+Why is that so? CuteReport's renderer recognizes every expression instance, calculates it and replaces expression with the result. Memo text can contain a number of expressions. Expressions can use complex arithmetic, constants, variables, objects and theirs properties. But there ara some potencial issues exists if our normal text contans square brackets that don't mean to be en expression. For example, we want to draw:
+
+array[0] = 'Banana'
+
+Entry [0] will be recognized as expression, calcultaed with result 1 and placed to our text. As result we will see:
+
+array0 = 'Banana'
+
+which is definitely not what we suppose to see. There are 2 solutions:<br>
+* set "allowExpressions" property to "false"
+* change default square brackets to any symbols or sysmbol set you want
+
+In first case entire text will be recognized as regular text without expressions. In second case expressions will be recognized using another "begin sigh" and "end sign". You can use "<" as begin and ">" as end, but only if you don't use HTML text. If you do use HTML you might use "<%" as begin and "%>" as end. Expression detector works before text rendering so any you expression delimiters will be cut off your text. Do not use the same symbol set as the "begin" and the "end" sign.
+
+
 
 Other Memo properties: [TODO]
 - stretchMode: object stretchability to fit text
