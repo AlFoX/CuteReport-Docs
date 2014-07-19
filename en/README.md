@@ -8,4 +8,5 @@ CuteRepport User's manual
   * [Memo object](memo_object.md)
   * [Bands ](bands.md)
   * [Storages](storages.md)
+  * [Datasets](datasets.md)
   * ["Customer list" example](customerlist_example.md)
