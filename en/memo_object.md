@@ -61,7 +61,7 @@ array0 = 'Banana'
 
 which is definitely not what we suppose to see. There are 2 solutions:<br>
 * set "allowExpressions" property to "false"
-* change default square brackets to any symbols or sysmbol set you want
+* change default square brackets to any symbols or symbols set you want in the "expressionDelimiter" property
 
 In the first case entire text will be recognized as regular text without expressions. In the second case expressions will be recognized using another "begin sigh" and "end sign". You can use "<" as begin and ">" as end, but only if you don't use HTML text. If you do use HTML you might use "<%" as begin and "%>" as end. Expression detector works before text rendering so any you expression delimiters will be cut off your text. Do not use the same symbol set as the "begin" and the "end" sign.
 
@@ -70,8 +70,6 @@ In the first case entire text will be recognized as regular text without express
 Other Memo properties: [TODO]
 - stretchMode: object stretchability to fit text
 - showStretchability: do stretching not only on rendered page, but on Designer' PageEditor too
-- allowHTML: enterpret all HTML tags
-- allowExpressions: detect scripting expressions and calculate them
 - expressionDelimiter: two string separated by comma which means begin and end of scripting block.
 - stretchFont: set automatic font size to fit Memo text within Memo width
 
