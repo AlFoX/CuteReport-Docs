@@ -10,4 +10,4 @@ Bands are designed for positioning items on a page. Each band has its own positi
 * __Detail__: must be joined to a dataset and displays all nested items on every dataset iteration
 * __DetailHeader__: must be joined to a dataset and can be shown on every dataset iteration or when "condition" property calculated as "true". It can be used for grouping for show group header
 * __DetailFooter__: must be joined to a dataset and can be shown on every dataset iteration or when "condition" property calculated as "true". It can be used for grouping for show group summary
-* __Overlay__: can be located everywhere on a page without layouts. Can be used as carrier band for foregraund, background, watermarks.
+* __Overlay__: can be located anywhere on a page without respecting any layouts. Can be used as carrier band for foregraund, background, watermarks.
