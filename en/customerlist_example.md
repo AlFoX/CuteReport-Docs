@@ -5,6 +5,6 @@ By first create new epty report by pressing "main menu -> Report -> New Report".
 
 
 
-[AddNewPageButton]:images/add_new_page_button.png
+[AddNewPageButton]:../images/add_new_page_button.png
 
 
