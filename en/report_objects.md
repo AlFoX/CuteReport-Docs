@@ -20,7 +20,7 @@ Objects are:
   * Image: item that draws dynamic or static image in PNG, JPG, BMP and other formats
   * Line: item that draws horizonta, vertical or diagonal line
   * Memo: item that represents any text information, plaintext and HTML formats are supported
-  * Pie: tem that draws pie
+  * Pie: item that draws pie
   * Rectangle: item that draws rectangle
 
 The basic objects most commonly used are the “Band” and “Memo” objects. You will learn about their capabilities in detail later in this chapter.
