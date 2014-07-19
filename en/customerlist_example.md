@@ -1,3 +1,5 @@
+"Customer List" example
+-----------
 Now we will create our second report and will learn how to use datasets. For that we will use test sqlite database named "business.db".
 By first create new empty report by pressing "main menu -> Report -> New Report". Then go to the "Datasets" tab, click on dataset names combobox and select SQL. Now you have one SQL dataset in your report. Lets set correct parameters for the dataset. Click "File...". When "Open database file" dialog appears, make sure you have correct storage selected in the "Storage" combobox, locate database file named "business.db" and choose it. Now you should have field "Database:" filled with "file:dataset.db". Since we have no host, user and passowrd for this database we will skip these fields. Choose "SQLITE" driver in the "Available Drivers:" list and press "<<" to copy driver name to the field "Driver". Now we can connect to out test database. Lets write a simple SQL query to test it:
 
@@ -14,7 +16,7 @@ Click "Test it" button and table with fetched from database data will appear. If
 ![sqldataset_data]
 
 
-Go to the tab "Page" and create new page if not exists. There are some types of page possible. For now we will use "Standard Page" or "Extended page"(for commercial version). Click on combobox and select appropriate page type and then click on the button "Add new page" ![AddNewPageButton].
+Go to the tab "Page" and create new page if not exists. There are some types of page possible. For now we will use "Standard Page" or "Extended page"(for commercial version). Click on combobox and select appropriate page type and then click on the button "Add new page" ![AddNewPageButton]. Add "Title" band to the page, and set correct size by dragging mouse on blue handle or by setting correct size in the PropertyEditor. Now place "Memo" item to the center of the band and set correct geomery as well. Double click on the Memo and type "Customer List" and press "Ok". To make this text centered, click on "TextFlags" propery in the PropertyEditor and enable "AlignHCenter" flag. Next step is adding "Detail" band to the page and joining it to our customers dataset. To do that press on the Dataset and to make it active and type "data" to the band's property "dataset". "Data" is the name of our dataset. You can change it anytime by double-clicking on the dataset tab in the DatasetsEditor. Now it's time to add some some "Memo" items to the band: number, first name, second name, address, city, zip code. For make it easy to stick each other, you can enable magnets by pressing buttons on the top of PageEditor. If you want to change name of the objects and make it more understandable in the Object Inspector, go to PropertyEditor and change "objectName" to something like: memoFirstName, memoSecondName, memoAddress and go on. We don't use these names in this example, but it can be useful to you later.
 
 
 
