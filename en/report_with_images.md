@@ -15,9 +15,12 @@ Finally you repport template should looks like this:
 ![ImagesReport]
 
 
-Now it's time to press "F5".
+Now it's time to press "F5" and enjoy result:
+
+![ImagesReport1]
 
 
 
 
 [ImagesReport]:../images/images_report.png
+[ImagesReport1]:../images/images_report1.png
