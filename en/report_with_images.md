@@ -15,5 +15,9 @@ Finally you repport template should looks like this:
 ![ImagesReport]
 
 
+Now it's time to press "F5".
+
+
+
 
 [ImagesReport]:../images/images_report.png
