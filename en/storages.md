@@ -27,7 +27,7 @@ It can be used for keeping all reports and theirs objects in local or remote GIT
 All objects stored in this storage will be included to report's file while saving. 
 
 
-
+All storages has it's own URL schema like: "git", "file", "res", "sql" so any file on these storages can be accessed using "git:objects/test.png", "res:/prefix/file1.jpg", "file:/home/user/file.bmp".
 
 
 [StorageSettings]:../images/storage_dialog.png
