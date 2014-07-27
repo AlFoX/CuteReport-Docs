@@ -23,10 +23,14 @@ Doesn't look good, right? Some of the descriptions were cut-off. Sure we can sim
 * you newer know how long text will be or it can be changed in future
 * it just doesn't look pretty :)
 
-Go ahead and fix it: set Memo property "stretchMode" to "ActualHeight" and generate report.
+Go ahead and fix it: set Memo property "stretchMode" to "ActualHeight", set Detail propery "stretchable" to "true" and generate report.
 
 ![CorrectExample]
 
+As you can see "stretchMode" do the work. There are all options:
+* DontStretch - do not stretch the object
+* ActualHeight - stretch the height of the object to fit all assigned text
+* MAxHeight - stretch the height of the object to reach bottom of the band
 
 [TemplateReady]:../images/multiline_text1.png
 [Dataset]:../images/multiline_text2.png
