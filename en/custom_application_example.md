@@ -5,8 +5,8 @@ Now let's do some coding. To add CuteReport library to your application you can 
 ```cpp
 #include "reportcore.h"
 
-/* create reportcore instance*/
-CuteReport::ReportCore * reportCore =  new CuteReport::ReportCore(0 ,0, false);
+/* create reportcore instance */
+CuteReport::ReportCore * reportCore = new CuteReport::ReportCore(0 ,0, false);
 
 /* create report preview widget */
 CuteReport::ReportPreview * preview = new CuteReport::ReportPreview(parentWidget);
