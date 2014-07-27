@@ -20,7 +20,7 @@ When this part is completed, go back to the PageEditor and set correct fields to
 
 Doesn't look good, right? Some of the descriptions were cut-off. Sure we can simply change description Memo height to fit largest text, but there are some disadvantages: 
 * paper wasting, since we will not use entire Memo's room for small text
-* you newer know how long text will be ot it can be changed in future
+* you newer know how long text will be or it can be changed in future
 * it just doesn't look pretty :)
 
 Go ahead and fix it: set Memo property "stretchMode" to "ActualHeight" and generate report.
