@@ -14,7 +14,7 @@ CuteReport::ReportPreview * preview = new CuteReport::ReportPreview(parentWidget
 /* assign report core to our preview */
 preview->setReportCore(reportCore);
 
-/* load report template from file and creating report object */
+/* loading report template from file and creating of report object */
 CuteReport::ReportInterface * reportObject = reportCore->loadReport("git:report.qtrp");
 
 /* connect created report object to the preview */
