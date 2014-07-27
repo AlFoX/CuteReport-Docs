@@ -10,14 +10,17 @@ Now we are starting to make image display. Set height of the Detail to 30mm. Add
 
 And the last step: Memo item that contains file's path. Add new Memo to the right side of the Detail band and type there: "[data."Name"]". Users of the Commercial edition can simply press on the button, that appears when you hover mouse over the Memo. 
 
-Finally you repport template should looks like this:
+Finally you report template should look like this:
 
 ![ImagesReport]
 
 
-Now it's time to press "F5".
+Now it's time to press "F5" and enjoy result:
+
+![ImagesReport1]
 
 
 
 
 [ImagesReport]:../images/images_report.png
+[ImagesReport1]:../images/images_report1.png

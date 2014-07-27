@@ -11,7 +11,7 @@ CuteRepport User's manual
   * [Datasets](datasets.md)
   * ["Customer list" example](customerlist_example.md)
   * [Image object](image_object.md)
-  * [Report with images (todo)](report_with_images.md)
+  * [Report with images](report_with_images.md)
   * [Multi-lined text display (todo)](multilined_text.md)
   * [Data splitting (todo)](data_splitting.md)
   * [Text wrap of objects (todo)](text_wrap_of_objects.md)
