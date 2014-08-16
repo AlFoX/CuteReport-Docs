@@ -8,7 +8,11 @@ Now lets render this template and see how it looks:
 
 ![Memo2]
 
-For this example we have set **textFlag** property to **AlignJusify**. It is not necessary to set text flags to all Memos, so set it only for first one.
+For this example we have set **textFlag** property to **AlignJusify**. It is not necessary to set text flags to all Memos, so set it only for first one. Every subsequent Memo inherits this setting.
+
+**Complex wrapping**
+
+[TODO]
 
 
 [Memo1]:../images/memo_flow_1.png
