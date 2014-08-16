@@ -12,11 +12,11 @@ For this example we have set **textFlag** property to **AlignJusify**. It is not
 
 **Complex wrapping**
 
-Making complex wrapping is not realy much complicated. Take a look at the next example:
+Making complex wrapping is not really much complicated. Take a look at the next example:
 
 ![Memo3]
 
-As you might notice there are 3 Memo objects that used for fit text: first in the middle top contains text "[data."description"]"; second one is laying under Title memo and cover right and central part; third one located on the bottom under all other objects. Its height set to minimal, since for some short texts it will not be used. So we do not need space wastage. Every next Memo joined to previous one by setting propery **"flowTo"** and property **stretchMode** of the last item is set to "ActualHeight". First two items no need to stretch, so theirs property set to "DontStretch". **"F5"** to render and voilà:
+As you might notice there are 3 Memo objects that used for fit text: first in the middle top contains text "[data."description"]"; second one is laying under Title memo and cover right and central part; third one is located on the bottom under all other objects. Its height set to minimal, since for some short texts it will not be used. So we do not need space wastage. Every next Memo joined to previous one by setting propery **"flowTo"** and property **stretchMode** of the last item is set to "ActualHeight". First two items no need to stretch, so theirs property set to "DontStretch". **"F5"** to render and voilà:
 
 ![Memo4]
 
