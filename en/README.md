@@ -22,4 +22,4 @@ CuteRepport User's manual
   * [Multilevel data reports (todo)](data_multilevel.md)
   * [Data band Headers and footers (todo)](data_headers_and_footers.md)
   * [Multi-page reports (todo)](multipage_reports.md)
-  * [Custom application example (todo)](custom_application_example.md)
+  * [Custom application example](custom_application_example.md)
