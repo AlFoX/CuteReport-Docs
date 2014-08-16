@@ -8,7 +8,7 @@ Now lets render this template and see how it looks:
 
 ![Memo2]
 
-For this example we have set **textFlag** property to **AlignJusify**. It is not necessary to set text flags to all Memos, so set them only for first one. Every subsequent Memo inherits this setting.
+For this example we have set **textFlag** property to **AlignJusify**. It is not necessary to set text flags to all Memos, so set them only for the first one. Every subsequent Memo inherits this setting.
 
 **Complex wrapping**
 
