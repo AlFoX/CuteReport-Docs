@@ -15,7 +15,7 @@ CuteRepport User's manual
   * [Multi-lined text display](multilined_text.md)
   * [Data splitting (todo)](data_splitting.md)
   * [Text wrap of objects](text_wrap_of_objects.md)
-  * [Display "table" data (todo)](data_as_table.md)
+  * [Display "table" data](data_as_table.md)
   * [Multicolumn page (todo)](multicolumn_page.md)
   * [Child band (todo)](child_band.md)
   * [Shifting objects (todo)](shifting_objects.md)
