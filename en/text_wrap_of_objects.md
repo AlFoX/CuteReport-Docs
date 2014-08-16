@@ -20,6 +20,8 @@ As you might notice there are 3 Memo objects that used for fit text: first in th
 
 ![Memo4]
 
+You do not have to care about object insertion order, you can add Memo objects to report page in arbitrary order. Once you set correct "flowTo" name all is done. CuteReport is smart enough to understand what do you want and it hides all routine work from your sight. Enjoy!
+
 [Memo1]:../images/memo_flow_1.png
 [Memo2]:../images/memo_flow_2.png
 [Memo3]:../images/memo_flow_3.png
