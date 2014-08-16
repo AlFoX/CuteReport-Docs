@@ -12,8 +12,12 @@ For this example we have set **textFlag** property to **AlignJusify**. It is not
 
 **Complex wrapping**
 
-[TODO]
+Making complex wrapping is not realy much complicated. Take a look at the next example:
+
+[Memo3]
 
 
 [Memo1]:../images/memo_flow_1.png
 [Memo2]:../images/memo_flow_2.png
+[Memo3]:../images/memo_flow_3.png
+[Memo4]:../images/memo_flow_4.png
