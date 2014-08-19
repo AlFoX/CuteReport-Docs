@@ -31,6 +31,8 @@ CuteRepport User's manual
   * Using script's variables in objects 
   * Signals
   * Core objects
+  * Anchors
+  * "OnManualBuild" page signal
   
 [_Data splitting (todo)_]:(data_splitting.md)
 [_Display data as Table_]:(data_as_table.md)
