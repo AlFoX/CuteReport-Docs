@@ -1,2 +1,2 @@
 Display data as table
---------
+=====
