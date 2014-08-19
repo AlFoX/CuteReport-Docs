@@ -1,5 +1,5 @@
 Multi-lined text display
-------
+======
 
 Let's proceed further and learn how to manage multi-line text. In the prevvious chapter we have learned how to make new report, create dataset and connect dataset to a band. So lets do it:
 * create new empty report
