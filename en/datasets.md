@@ -1,5 +1,6 @@
 Datasets
----------
+=====
+
 As it was mentioned before Dataset is the objects that contains structured data organized into rows(lines) which have one or more columns(fields). Dataset can fetch data from any source and privode common interface to this data. There are some datasets provided in the basic CuteReport edition: SQLDataset, CSVDataset, FilesystemDataset, ModelDataset. All of them fetch data from diferrent sources.
 
 Datasets:
