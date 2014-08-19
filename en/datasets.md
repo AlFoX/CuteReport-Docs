@@ -7,6 +7,7 @@ Datasets:
 * __SQLDataset__: It provides interface to fetch data from SQL databases, It can work with any databases supported by Qt, ie that has Qt database driver. There are some setting to connect to a remote database (like mysql, postgresql) or to use database file (like sqlite)
 * __CSVDataset__: It provides interface to data stored in a file and separated by comma or other defined symbol. It can load data from en external file every time when populated or load and cache data internally
 * __FilesystemDataset__: it provides interface to fetch information from filesystem, and show files, directories and more less detailed info about them. There are some options: filtering, recursion level, max number of exposed records. It is usefull for making files or photo catalogs, etc.
+* __ModelDataset__: it is used to export prepared data from custom application to report object. IF you have widget like QTableView or QTableWidget you can easily print data stored in there.
 
 Try to play with each dataset to understand how they work. You can see the populated dataset rows anytime by pressing "Test it" button. Data from dataset can be used in scriptable form in items. To get data from dataset where it's allowed you can use [datasetname."fieldname"] or [datasetname.value("fieldname")] form. First form is just shortening of the second one. Every short form replaced by full form internally before script execution.
 
