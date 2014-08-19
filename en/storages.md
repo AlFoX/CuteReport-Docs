@@ -1,5 +1,6 @@
 Storages
-------------
+======
+
 Right now we will try to figure out what is storages and how to work with them. Storage it is... well, storage, the place where all report's object are stored. It can be filesytem, GIT, resource, HTTP server, FTP server. Certanly, you are familiar with some of them. CuteReport can use a lot of objects for report rendering, such as images and database files. Report files (templates) also stored somewhere. Usually you use your local filesystem to store all these objects as a file. But CuteReport is not limited by only filesystem. When you start CuteReport first time you will see "Storage settings" dialog:
 
 ![StorageSettings]
