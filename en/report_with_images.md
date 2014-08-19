@@ -1,5 +1,6 @@
 Report with Images
----------
+=====
+
 In this chapter we will learn how to use Image object and FileSystem storage.<br>
 Lets create new report, add new page, add Title band and Detail band. Nexts is creating FileSystem dataset. Go to "Datasets" tab, choose Standard::FileSystem and press it. Choose any directory that contains some pictures by pressing "Select dir..." button. Set "maxNumber" to 6. This is maximum records that dataset will contain. Disable flags: Directories, All Directories. Add filter: "*.jpg; *.png" or any other graphic format you have. Set "Path appearance" to "AbsolutePath", so we will be able to load picture using it's absolute path. Now press "Test it". As result you should see a list of 6 files or less with file format you set in your filter.
 
