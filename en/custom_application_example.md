@@ -1,5 +1,5 @@
 Custom application example
------
+====
 
 Now let's do some coding. To add CuteReport library to your application you can do something like this:
 ```cpp
