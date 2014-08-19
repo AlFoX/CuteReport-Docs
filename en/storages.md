@@ -34,4 +34,9 @@ All objects stored in this storage will be included to report's file while savin
 All storages has it's own URL schema like: "git", "file", "res", "sql" so any file on these storages can be accessed using "git:objects/test.png", "res:/prefix/file1.jpg", "file:/home/user/file.bmp".
 
 
+SQLStorage
+-------
+This storage is designed to make you easy to save and load report templates and report objects from SQL databases without writing any code in your application. Just provide info about database, table and field where reports or object are stored.
+
+
 [StorageSettings]:../images/storage_dialog.png
