@@ -12,7 +12,8 @@ Now lets render this template and see how it looks:
 
 For this example we have set **textFlag** property to **AlignJusify**. It is not necessary to set text flags to all Memos, so set them only for the first one. Every subsequent Memo inherits this setting.
 
-**Complex wrapping**
+Complex wrapping
+-----
 
 Making complex wrapping is not really much complicated. Take a look at the next example:
 
