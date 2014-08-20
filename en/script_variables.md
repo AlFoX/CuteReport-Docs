@@ -25,6 +25,13 @@ Renderer's variables
 ---------
 
 Renderer module has it's own variables and the full list of variables depends of renderer itself.
+There are list of Standard renderer's variable:
+ * _line - current dataset line starting from 1
+ * _page - current page number starting from 1
+ * _pages - total pages (require report double pass)
+ * _passes - report pass number
+ * \_template_page - current page of template: means number of page in designer
+ * \_template_pages - total pages of template: means number of pages in designer (starting from 1)
 
 
 [GlobalVariablesList]:../images/script_2.png
