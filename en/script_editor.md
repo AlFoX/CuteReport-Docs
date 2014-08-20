@@ -1,3 +1,7 @@
+Script Editor
+===============
+
+
 CuteDesigner has a module named ScriptEditor to work with script. You can find ScriptEditor by pressing "Script" tab on the right panel of the Cutereport Designer
 
 ![ScriptEditor]
