@@ -7,7 +7,11 @@ var myVar = 5;
 print(${myVar});
 print(myVar);
 ```
-Withing script variables "myVar" and "${myVar}" are totally diferent objects. 
+Withing script variables "myVar" and "${myVar}" are totally diferent objects. You can safely get/put values to/from global variable like you do with regular JavaScript variables:
+```JavaScript
+print(${myNumber});
+${myNumber} = 10;
+```
 
 Once you mentioned you global variable in the script it will be automatically added to the report variable list if it's not still exists there. Lets try it.
 Open new empty report, go to the "Script" tab and enter {$test}. Now switch to the "Reports" tab. You will see your variable in the list of variables and could test your script by setting any test value for te variable.
