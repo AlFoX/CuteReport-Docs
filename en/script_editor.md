@@ -1,10 +1,13 @@
+Script Editor
+===============
+
+
 CuteDesigner has a module named ScriptEditor to work with script. You can find ScriptEditor by pressing "Script" tab on the right panel of the Cutereport Designer
 
 ![ScriptEditor]
 
 List of the shortcut keys which can be used in the ScriptEditor:
 
-------------------------------------------------------
 |Key|Description|
 |---|-----------|
 |Cursor arrows|move cursor position|
