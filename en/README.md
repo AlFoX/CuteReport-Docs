@@ -28,7 +28,7 @@ CuteRepport User's manual
   * [Script objects](script_objects.md)
   * [Script variables](script_variables.md)
   * Using aggregate functions
-  * Signals
+  * [Script Signals](script_signals.md)
   * Core objects
   * Anchors
   * "OnManualBuild" page signal
