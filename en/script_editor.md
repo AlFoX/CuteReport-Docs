@@ -8,7 +8,6 @@ CuteDesigner has a module named ScriptEditor to work with script. You can find S
 
 List of the shortcut keys which can be used in the ScriptEditor:
 
-------------------------------------------------------
 |Key|Description|
 |---|-----------|
 |Cursor arrows|move cursor position|
