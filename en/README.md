@@ -25,7 +25,7 @@ CuteRepport User's manual
   * [Custom application example](custom_application_example.md)
 * Script
   * [Script Editor](script_editor.md)
-  * Using objects
+  * [Using objects](script_objects.md)
   * Using global report variables
   * Using aggregate functions
   * Using script's variables in objects 
