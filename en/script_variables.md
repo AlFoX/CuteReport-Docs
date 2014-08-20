@@ -1,10 +1,10 @@
-Using gvariables in a script
+Using variables in a script
 ====================
-
+There is standard rule - any variables such as global report's variables, engine's variables or any local script variable are script objects. The difference is only naming. Renderer uses prefix "\_" for engine's variables and "\_\_" for global variables. So they all can be accessible using this logic. But some of them can also have other more specific name, like global variables do.
 
 Global report's variables
 ---------
-Any global variable that is defined in a report could be accessed from a script. The variable name should be writen in such kind: ${my\_variable} without spaces not between rounding signs not in variable name. It is 2 recommended way if you want to give your variable some complex name like "my super duper variable". First way is to replace spaces with "\_" sign. and second one is to remove spaces and use capital letter on the every word after first one, oor even including first one like: mySuperDuperVariable or MySuperDuperVariable. Also it's important to not use name that other objects already have, because report variable are also objects like any other report objects. Internally script engine use special named object to represent global variables and renderer internal variables like "\_page", "\_pages" and predict variable names with "\_". So using "\_" in begin of your variable name is highly not recommended. On the other hand you can have local script variable and global report variable with the same name:
+Any global variable that is defined in a report could be accessed from a script. The variable name should be writen in such way: ${my\_variable} without spaces between rounding signs and within variable name. There are 2 recommended way to go if you want to give your variable some complex name like "my super duper variable". First way is to replace spaces with "\_" sign. And second one is to remove spaces and use capital letter on the. Internally script engine use special named object to represent global variables. So using "\_" in begin of your variable name is highly not recommended. On the other hand you can have local script variable and global report variable with the same name:
 ```JavaScript
 var myVar = 5;
 print(${myVar});
@@ -20,6 +20,11 @@ Once you mentioned you global variable in the script it will be automatically ad
 Open new empty report, go to the "Script" tab and enter {$test}. Now switch to the "Reports" tab. You will see your variable in the list of variables and could test your script by setting any test value for te variable.
 
 ![GlobalVariablesList]
+
+Renderer's variables
+---------
+
+Renderer module has it's own variables and the full list of variables depends of renderer itself.
 
 
 [GlobalVariablesList]:../images/script_2.png
