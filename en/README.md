@@ -26,7 +26,7 @@ CuteRepport User's manual
 * Script
   * [Script Editor](script_editor.md)
   * [Script objects](script_objects.md)
-  * [Using variables](script_variables.md)
+  * [Using variables in script](script_variables.md)
   * Using aggregate functions
   * Using script's variables in objects 
   * Signals
