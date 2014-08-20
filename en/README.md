@@ -24,7 +24,7 @@ CuteRepport User's manual
   * Multi-page reports
   * [Custom application example](custom_application_example.md)
 * Script
-  * Script Editor
+  * [Script Editor](script_editor.md)
   * Using objects
   * Using global report variables
   * Using aggregate functions
