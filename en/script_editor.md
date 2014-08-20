@@ -19,5 +19,8 @@ List of the shortcut keys which can be used in the ScriptEditor:
 |Ctrl+A|select whole text|
 [TODO]
 
+CuteReport uses standard JavaScript syntax, so please read JavaScript documentation if you are not familiar with this language.
+
 
 [ScriptEditor]:../images/script_1.png
+
