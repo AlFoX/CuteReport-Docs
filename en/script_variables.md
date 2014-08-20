@@ -3,6 +3,16 @@ Script variables
 
 There is standard rule - any variables such as global report's variables, engine's variables or any local script variable are script objects. The difference is only naming. Renderer uses prefix "\_" for engine's variables and "\_\_" for global variables. So they all can be accessible using this logic. But some of them can also have other more specific name, like global variables do.
 
+Local script variables
+----------
+Variables can be declared and used locally within a script. Once declared a script vaariable can have value assigned to it. Here you can see an example:
+```JavaScript
+var myVar = "Hello, World!";
+```
+After you have variable created you can use it in any report objects, for example in Memo by writting "[myVar]" to the **"text"** property.
+For more detailed information about script variables read documentation about JavaScript language.
+
+
 Global report's variables
 ---------
 
@@ -34,6 +44,8 @@ There are list of Standard renderer's variable:
  * _passes - report pass number
  * \_template_page - current page of template: means number of page in designer
  * \_template_pages - total pages of template: means number of pages in designer (starting from 1)
+
+
 
 
 [GlobalVariablesList]:../images/script_2.png
