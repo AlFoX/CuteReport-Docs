@@ -28,7 +28,6 @@ CuteRepport User's manual
   * [Script objects](script_objects.md)
   * [Script variables](script_variables.md)
   * Using aggregate functions
-  * Using script's variables in objects 
   * Signals
   * Core objects
   * Anchors
