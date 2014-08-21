@@ -11,6 +11,6 @@ Item Signals
 | printBefore | emited before item printing. All prperty changes affects original template item |
 | printDataBefore | emited when initial data for printed item is prepared. All property changes affects only current printed item and will be reset |
 | printDataAfter | emited after all item's data is processed, but before actual priniting |
-| printAfter(RenderedItemInterface *)| emited after new item with new interface ready to print generated. This signal is not much useful for scripting, but can be used inside other items to perform item joining, set dependencies, etc|
+| printAfter | emited after item is printed on a page |
 
 
