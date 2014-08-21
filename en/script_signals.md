@@ -7,8 +7,8 @@ Item Signals
 | Signal Name | Description |
 |------------|------------|
 | printInit | emited when all items are preparing to be printed |
-| printReset | emited when all items are printed and usefull for cleaning up inside item |
-| printBefore | emited before item printing. All prperty changes affects original template item |
+| printReset | emited when all items are cleaned up after printing |
+| printBefore | emited before item printing. All property changes affects original template item |
 | printDataBefore | emited when initial data for printed item is prepared. All property changes affects only current printed item and will be reset |
 | printDataAfter | emited after all item's data is processed, but before actual priniting |
 | printAfter | emited after item is printed on a page |
