@@ -35,4 +35,4 @@ Also every item can have its own signals. You can see full signal list common wi
 |formAfter(CuteReport::FormInterface * dataset) | emited after form is closed |
 |reportDone() | emited after report rendering is done |
 
-
+[TODO]
