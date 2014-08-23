@@ -3,7 +3,7 @@ Designer
 
 
 CuteReport solution comes with a standalone designer which helps to manage CuteReport's templates. CuteDesigner itself has only few functions and provides API to support modules. Modules are used to provide and extend any current or further designer's functionality. Modules can provide (gui-modules) or do not provide (nongui-modules) user interface elements. Some of the basic gui modules are: ReportEditor, PageEditor, ScriptEditor, DatasetEditor, and Preview. Each module provides its own functionality and can be dependent of the other module(s). Also any module can be replaced by another with extended functionality.
- 
+
 ReportEditor module
 -----
 
@@ -63,7 +63,7 @@ You can switch to ScriptEditor by pressing the "Dataset" button on the module ba
 * delete current dataset
 * test dataset
 * dataset helper
- 
+
 Preview module
 ------
 
@@ -81,8 +81,8 @@ Preview module task is to display rendered reports. There are some button groups
 * export to file
 * print
 
-[ReportEditorImage]:../images/Designer_reportEditor_withLabels.png
-[PageEditorImage]:../images/Designer_pageEditor_withLabels.png
-[ScriptEditorImage]:../images/Designer_scriptEditor.png
-[DatasetEditorImage]:../images/Designer_datasetEditor._withLabels.png
+[ReportEditorImage]:images/Designer_reportEditor_withLabels.png
+[PageEditorImage]:images/Designer_pageEditor_withLabels.png
+[ScriptEditorImage]:images/Designer_scriptEditor.png
+[DatasetEditorImage]:images/Designer_datasetEditor._withLabels.png
 [PreviewImage]:../images/Designer_preview_withLabels.png
