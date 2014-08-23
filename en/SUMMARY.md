@@ -2,34 +2,27 @@
 
 * [Introduction](README.md)
 * [Designer](designer.md)
-* Creating Reports
-   * [Report objects](report_objects.md)
-   * ["Hello World" example](hello_world.md)
-   * [Memo object](memo_object.md)
-   * [Bands ](bands.md)
-   * [Storages](storages.md)
-   * [Datasets](datasets.md)
-   * ["Customer list" example](customerlist_example.md)
-   * [Image object](image_object.md)
-   * [Report with images](report_with_images.md)
-   * [Multi-lined text display](multilined_text.md)
-   * Data splitting
-   * [Text wrap of objects](text_wrap_of_objects.md)
-   * Display data as Table
-   * Multicolumn page
-   * Child band
-   * Shifting objects
-   * Multilevel data reports
-   * Data band Headers and footers
-   * Multi-page reports
-   * [Custom application example](custom_application_example.md)
-* Script
-   * [Script Editor](script_editor.md)
-   * [Script objects](script_objects.md)
-   * [Script variables](script_variables.md)
-   * Using aggregate functions
-   * [Script Signals](script_signals.md)
-   * Core objects
-   * Anchors
-   * "OnManualBuild" page signal
+   * [ReportEditor module](reporteditor_module.md)
+   * [PageEditor module](page_editor_module.md)
+   * [ScriptEditor module](scripteditor_module.md)
+   * [DatasetEditor module](dataseteditor_module.md)
+   * [Preview Module](preview_module.md)
+* [Creating Reports](creating_reports/README.md)
+   * [Report objects](creating_reports/report_objects.md)
+   * ["Hello World" example](creating_reports/hello_world_example.md)
+   * [Memo object](creating_reports/memo_object.md)
+   * [Bands ](creating_reports/bands.md)
+   * [Storages](creating_reports/storages.md)
+   * [Datasets](creating_reports/datasets.md)
+   * ["Customer list" example](creating_reports/customer_list_example.md)
+   * [Image object](creating_reports/image_object.md)
+   * [Report with images](creating_reports/report_with_images.md)
+   * [Multi-lined text display](creating_reports/multi-lined_text_display.md)
+   * [Text wrap of objects](creating_reports/text_wrap_of_objects.md)
+   * [Custom application example](creating_reports/custom_application_example.md)
+* [Script](script/README.md)
+   * [Script Editor](script/script_editor.md)
+   * [Script objects](script/script_objects.md)
+   * [Script variables](script/script_variables.md)
+   * [Script Signals](script/script_signals.md)
 
