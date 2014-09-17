@@ -54,9 +54,13 @@ Expressions is one of the most important feature of Memo object. It allows to di
 
 Now is [QDateTime.currentDateTime()]
 
+_(or simplified variant with taking locale into account: "Now is [DATE]")_
+
 and render report by pressing **"F5"** on your keyboard. You'll see result of the rendering, something like that:
 
 Now is Fri Jul 18 2014 00:44:22 GMT-0700 (PDT)
+
+_(or for DATE variable: 18/07/2014 or 07/18/2014 dependending of your locale)_
 
 Why is that so? CuteReport's renderer recognizes every expression instance, calculates it and replaces expression with the result. Memo text can contain a number of expressions. Expressions can use complex arithmetic, constants, variables, objects and theirs properties. But there ara some potencial issues exists if our normal text contans square brackets that don't mean to be en expression. For example, we want to draw:
 

@@ -31,16 +31,18 @@ Open new empty report, go to the "Script" tab and enter {$test}. Now switch to t
 
 ![GlobalVariablesList]
 
-### Renderer's variables
+### Renderer variables
 
 Renderer module has it's own variables and the full list of variables depends of renderer itself.
 There are list of Standard renderer's variable:
- * _line - current dataset line starting from 1
- * _page - current page number starting from 1
- * _pages - total pages (require report double pass)
- * _passes - report pass number
- * \_template_page - current page of template: means number of page in designer
- * \_template_pages - total pages of template: means number of pages in designer (starting from 1)
+ * __LINE__ - current dataset line starting from 1
+ * __PAGE__ - current page number starting from 1
+ * __PAGES__ - total pages (require report double pass)
+ * __PASSES__ - report pass number
+ * __TPAGE__ - current page of template: means number of page in designer
+ * __TPAGES__ - total pages of template: means number of pages in designer (starting from 1)
+ * __DATE__ - the date when report generating was started (commercial version only). QDate.currentDate() can be used instead.
+ * __TIME__ - the time when report generator was started (commercial version only). QTime.currentTime() can be used instead.
 
 
 
