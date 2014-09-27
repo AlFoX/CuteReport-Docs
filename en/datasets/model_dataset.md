@@ -49,4 +49,4 @@ CuteReport::ReportCore * cuteReport =  new CuteReport::ReportCore();
     }
 ```
 
-While generation the datamodel will  be cloned, since QAbstractItemModel is not thread safe.
+While rendering the datamodel will be cloned, since QAbstractItemModel is not thread safe.

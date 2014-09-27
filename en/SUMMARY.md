@@ -19,6 +19,7 @@
    * [Report with images](creating_reports/report_with_images.md)
    * [Multi-lined text display](creating_reports/multi-lined_text_display.md)
    * [Text wrap of objects](creating_reports/text_wrap_of_objects.md)
+   * [Label printing](creating_reports/columns.md)
    * [Custom application example](creating_reports/custom_application_example.md)
 * [Script](script/README.md)
    * [Script Editor](script/script_editor.md)
