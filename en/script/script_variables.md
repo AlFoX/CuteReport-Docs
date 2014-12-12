@@ -14,7 +14,7 @@ For more detailed information about script variables read documentation about Ja
 
 ### Global report's variables
 
-Any global variable that is defined in a report could be accessed from a script. The variable name should be writen in such way: ${my\_variable} without spaces between rounding signs and within variable name. There are 2 recommended way to go if you want to give your variable some complex name like "my super duper variable". First way is to replace spaces with "\_" sign. And second one is to remove spaces and use capital letter on the. Internally script engine use special named object to represent global variables. So using "\_" in begin of your variable name is highly not recommended. On the other hand you can have local script variable and global report variable with the same name:
+Any global variable that is defined in a report could be accessed from a script. The variable name should be writen in such way: ${my\_variable} without spaces between rounding signs and within variable name. There are 2 recommended way to go if you want to give your variable some complex name like "my super duper variable". First way is to replace spaces with "\_" sign. And second one is to remove spaces and use capital letter on the beginnning of every word within variable name. Internally script engine use special named object to represent global variables. So using "\_" in begin of your variable name is highly not recommended. On the other hand you can have local script variable and global report variable with the same name:
 ```JavaScript
 var myVar = 5;
 print(${myVar});

@@ -3,7 +3,7 @@ Label printing
 (__*commercial version only*__)
 
 
-In this chapter we will see how to create report with columns using CuteReport. That can be useful to print labels or so. Let's create a simple report contains customer labels to print out on customer case folders. Below you can see this exaple:
+In this chapter we will see how to create report with columns using CuteReport. That can be useful to print labels or so. Let's create a simple report containing customer labels to print out on customer case folders. Below you can see this example:
 
 ![PageWOColumns]
 
@@ -16,7 +16,7 @@ As you can see there is a lot of wasted space on the right side, therefore a lot
 
 ![PageWOColumns_3]
 
-There are 2 types of column filling: __"Vertical"__ and __"Horizontal"__ that can be set via __"fillDirection"__ Page's property. In the picture above you can see "Vertical" type that means any next label will be printer under the previous and so on while there is empty space exists in the column. When there is no space, report will create new column and start from the top. "Horizontal" type means every next label will be printed on the right of previous one while there is enought space on the right side of page. If there is no space, report will print next label on the next row as you can see below:
+There are 2 types of column filling: __"Vertical"__ and __"Horizontal"__ that can be set via __"fillDirection"__ Page's property. In the picture above you can see "Vertical" type that means any next label will be printer under the previous one and so on while there empty space exists in the column. When there is no space, report will create new column and start from the top. "Horizontal" type means every next label will be printed on the right of previous one while there is enought space on the right side of the page. If there is no space, report will print next label on the next row as you can see below:
 
 ![PageWOColumns_4]
 
